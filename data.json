@@ -1,0 +1,43 @@
+{
+    "message" : "Kamu mau pesan apa ?",
+    "coffe" : [
+        {
+            "id" : 1,
+            "nama-kopi" : "Latte",
+            "ukuran" : [
+                {
+                    "s" : "small",
+                    "m" : "medium",
+                    "l" : "large"
+                }
+            ],
+
+            "harga" : [
+                {
+                    "small" : 18.000,
+                    "medium" : 26.000,
+                    "large" : 32.000
+                }
+            ],
+
+            "id" : 2,
+            "nama-kopi" : "Robusta",
+            "ukuran" : [
+                {
+                    "s" : "small",
+                    "m" : "medium",
+                    "l" : "large"
+                }
+            ],
+
+            "harga" : [
+                {
+                    "small" : 18.000,
+                    "medium" : 26.000,
+                    "large" : 32.000
+                }
+            ]
+        }
+    ]
+
+}
