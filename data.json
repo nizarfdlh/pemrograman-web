@@ -2,42 +2,20 @@
     "message" : "Kamu mau pesan apa ?",
     "coffe" : [
         {
-            "id" : 1,
+            "id_coffe" : 1,
             "nama-kopi" : "Latte",
-            "ukuran" : [
+            "priceandsize" : [
                 {
                     "s" : "small",
                     "m" : "medium",
                     "l" : "large"
-                }
-            ],
-
-            "harga" : [
+                },
                 {
-                    "small" : 18.000,
-                    "medium" : 26.000,
-                    "large" : 32.000
-                }
-            ],
-
-            "id" : 2,
-            "nama-kopi" : "Robusta",
-            "ukuran" : [
-                {
-                    "s" : "small",
-                    "m" : "medium",
-                    "l" : "large"
-                }
-            ],
-
-            "harga" : [
-                {
-                    "small" : 18.000,
-                    "medium" : 26.000,
-                    "large" : 32.000
+                    "small" : 17.000,
+                    "medium" : 23.000,
+                    "large" : 27.000
                 }
             ]
         }
     ]
-
 }
