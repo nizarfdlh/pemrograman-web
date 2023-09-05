@@ -1,0 +1,38 @@
+HTTP/Verb Methods : 
+
+* GET: Untuk mendapatkan data.
+* POST: Untuk mengirimkan data baru
+* PUT: Untuk memperbarui data yang ada.
+* DELETE: Untuk menghapus data.
+
+[ curl -X GET https://coffee-api.dicoding.dev/coffees -i ]
+* curl => merupakan perintah untuk menggunakan proram cURL pada terminal atau cmd
+* -X GET => menetapkan HTTP method/verb yang kita gunakan. GET berarti kita ingin mendapatkan sebuah data
+* https://coffee-api.dicoding.dev/coffees => merupakan alamat request yang dituju
+* -i => memberikan informasi detail terhadap response yang diberikan (HTTP response headers)
+
+informasi pada request dapat mengandung poin-poin berikut : 
+
+* request line => berisikan method/verb seperti GET (mengambil data), POST (menambah/mengirim data), dan methob/verb lainnya.
+* header => memuat informasi yang dilampirkan terkait requested seperti format dokument (contoh : application/json, text/html)
+* body (optional) => mengandung data yang dibutukan oleh server, bisa dalam bentuk text,json,dll
+
+berikut adalah beberapa informasi yang dilampirkan oleh respons :
+
+* status line => berisikan HTTP versi yang digunakan: status code berupa tiga digit angka yang menandakan keberhasilan dari permintaan; reason phrase atau status text yang merupakan keberhasilan dari permintaan; reason phrase atau merupakan pesan berdasarkan status code dalam bentuk teks sehinga lebih mudah di mengerti
+* header => mengandung informasi yang dilampirkan terkait response seperti format dokument
+* body (optional) => memuat data yang dikirimkan oleh server. data dapat berupa HTML, JSON, gambar,
+
+NPM INIT 
+
+NPM alias Node Package Manager merupakan JavaScript Package Manager bawaan dari Node.js. Melalui NPM ini kita dapat membuat Node.js package (proyek) dan mengelola penggunaan package eksternal yang digunakan. Kita akan membahas NPM lebih detail nanti.
+
+
+FONT STYLING 
+
+* font-family: menetapkan jenis font yang akan diterapkan pada target.
+* font-size: menentukan ukuran pada teks.
+* font-weight: menentukan ketebalan pada teks. 
+* font-style: menetapkan styling yang diterapkan pada teks.
+* font-variant: menentukan teks untuk menggunakan gaya small caps (huruf kapital kecil).
+* font: sebagai shorthand dari properti font yang ada.
