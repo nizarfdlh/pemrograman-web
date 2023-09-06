@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
-    --max-width:1200px;
+    --max-width:100%;
     --primary-color:#222831;
     --text-dark:#393E46;
     --text-white:#EEEEEE;
@@ -31,12 +31,44 @@ nav {
     margin: auto;
     gap: 1rem;
     padding: 1.3rem;
+    background-color: #225A91;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+    color: var(--text-white);
+    opacity: 85%;
+}
+
+.hero-text h1 {
+    /* font-family: 'Space Mono', monospace; */
+    font-family: 'Caveat', cursive;
+    color: #225A91;
+    overflow: hidden;
+    border-right: .15em solid;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {width: 0;}
+    to {width: 100%;}
+}
+
+@keyframes blink-caret {
+    from, to {border-color: transparent;}
+    50% {border-color: #225A91;}
 }
 
 .nav-logo {
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--text-dark);
+    color: var(--text-white);
 }
 
 .nav-links {
@@ -48,7 +80,7 @@ nav {
 
 .link a {
     font-weight: 500;
-    color: var(--text-dark);
+    color: var(--text-white);
     text-decoration: none;
     transition: 0.5s;
 }
@@ -89,6 +121,8 @@ nav {
 .text-container .description {
     text-align: center;
     color: var(--primary-color);
+    font-family: 'Karla', sans-serif;
+
 }
 
 .text-container .section-header {
@@ -96,14 +130,19 @@ nav {
     font-size: 3rem;
     line-height: 4rem;
     margin-bottom: 1rem;
+    font-family: 'Caveat', cursive;
 }
 
 .image-container {
     display: flex;
-    justify-content: center;
+    /* justify-content: center;
+    margin: auto;
+    align-items: center; */
+    position: absolute;
+    left: 10%;
 }
 
-.image-items-one {
+.image-items {
     display: block;
     margin-left: auto;
     margin-right: auto;
