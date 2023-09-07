@@ -22,26 +22,34 @@
                 <li class="link"><a href="">Support</a></li>
                 <li class="link"><a href="">Contact</a></li>
             </ul>
-            <button class="btn"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><style>svg{fill:#ffffff}</style><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></button>
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><style>svg{fill:#ffffff}</style><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>           
+            <!-- <button class="btn"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><style>svg{fill:#ffffff}</style><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+            </button> -->
         </nav>
     </header>
    <main>
     <!-- Konten Utama Website -->
     <section class="hero-section">
-        <div class="hero-image">
-            <img src="image/background-hero.png" alt="backgroud" width="100%" height="150%">
+        <section class="hero-image">
+            <img src="image/background-hero.png" alt="backgroud" width="100%">
             <div class="hero-text">
                 <h1>Hallo, I'am Nizar Fadilah</h1>
             </div>
-        </div>
+        </section>
     </section>
 
     <section class="section-container text-container">
         <!-- <p class="subheader">Beautiful artwork anywhere</p> -->
+        <article>
         <h2 class="section-header">Art is a way to express yourself</h2>
         <p class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ipsum in doloribus molestiae laboriosam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Consectetur ipsum in doloribus molestiae laboriosam
         </p>
+        <p class="description">
+            deleniti tempora fugiat itaque sit quasi modi soluta dolores natus sunt.
+        </p>
+        </article>
     </section>
 
     <section class="image-container">
@@ -57,12 +65,36 @@
             <img src="image/33.jpg" alt="gambar-1" width="350px" height="350px">
         </div>
     </section>
+
+    <div class="form-container">
+        <h3 class="title-form">Contact me</h3>
+        <form action="#">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Indonesia</option>
+            <option value="canada">Japan</option>
+            <option value="usa">Soviet</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+      
     <!-- Penutup Utama Website -->
    </main>
-   <footer>
-    <!-- Konten Footer Website -->
-
-    <!-- Penutup Footer Website -->
+   <footer class="footer-end">
+    <h3>Nizar Fadilah</h3>
    </footer>
 </body>
 </html>
